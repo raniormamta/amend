@@ -1,0 +1,910 @@
+
+public class Footer {
+	private int fPId;
+	private long recordCount;
+	public Footer() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	public Footer(int fPId, long recordCount) {
+		super();
+		this.fPId = fPId;
+		this.recordCount = recordCount;
+	}
+	public int getfPId() {
+		return fPId;
+	}
+	public void setfPId(int fPId) {
+		this.fPId = fPId;
+	}
+	public long getRecordCount() {
+		return recordCount;
+	}
+	public void setRecordCount(long recordCount) {
+		this.recordCount = recordCount;
+	}
+	@Override
+	public String toString() {
+		return "Footer [fPId=" + fPId + ", recordCount=" + recordCount
+				+ ", getRecordCount()=" + getRecordCount() + ", getfPId()="
+				+ getfPId() + "]";
+	}
+}
+
+
+
+
+public class Header {
+private long hPId;
+private String approvedFor;
+private String brandAAIAID;
+private String company;
+private String docFormNumber;
+private String documentTitle;
+private String effectiveDate;
+private String mapperCompany;
+private String mapperContact;
+private String mapperEmail;
+private String mapperPhone;
+private String mapperPhoneExt;
+private String pcdbVersionDate;
+private String qdbVersionDate;
+private String senderName;
+private String senderPhone;
+private String senderPhoneExt;
+private String submissionType;
+private String transferDate;
+private String vcdbVersionDate;
+public Header() {
+super();
+// TODO Auto-generated constructor stub
+}
+public Header(long hPId, String approvedFor, String brandAAIAID,
+String company, String docFormNumber, String documentTitle,
+String effectiveDate, String mapperCompany, String mapperContact,
+String mapperEmail, String mapperPhone, String mapperPhoneExt,
+String pcdbVersionDate, String qdbVersionDate, String senderName,
+String senderPhone, String senderPhoneExt, String submissionType,
+String transferDate, String vcdbVersionDate) {
+super();
+this.hPId = hPId;
+this.approvedFor = approvedFor;
+this.brandAAIAID = brandAAIAID;
+this.company = company;
+this.docFormNumber = docFormNumber;
+this.documentTitle = documentTitle;
+this.effectiveDate = effectiveDate;
+this.mapperCompany = mapperCompany;
+this.mapperContact = mapperContact;
+this.mapperEmail = mapperEmail;
+this.mapperPhone = mapperPhone;
+this.mapperPhoneExt = mapperPhoneExt;
+this.pcdbVersionDate = pcdbVersionDate;
+this.qdbVersionDate = qdbVersionDate;
+this.senderName = senderName;
+this.senderPhone = senderPhone;
+this.senderPhoneExt = senderPhoneExt;
+this.submissionType = submissionType;
+this.transferDate = transferDate;
+this.vcdbVersionDate = vcdbVersionDate;
+}
+public long gethPId() {
+return hPId;
+}
+public void sethPId(long hPId) {
+this.hPId = hPId;
+}
+public String getApprovedFor() {
+return approvedFor;
+}
+public void setApprovedFor(String approvedFor) {
+this.approvedFor = approvedFor;
+}
+public String getBrandAAIAID() {
+return brandAAIAID;
+}
+public void setBrandAAIAID(String brandAAIAID) {
+this.brandAAIAID = brandAAIAID;
+}
+public String getCompany() {
+return company;
+}
+public void setCompany(String company) {
+this.company = company;
+}
+public String getDocFormNumber() {
+return docFormNumber;
+}
+public void setDocFormNumber(String docFormNumber) {
+this.docFormNumber = docFormNumber;
+}
+public String getDocumentTitle() {
+return documentTitle;
+}
+public void setDocumentTitle(String documentTitle) {
+this.documentTitle = documentTitle;
+}
+public String getEffectiveDate() {
+	return effectiveDate;
+}
+public void setEffectiveDate(String effectiveDate) {
+	this.effectiveDate = effectiveDate;
+}
+public String getMapperCompany() {
+return mapperCompany;
+}
+public void setMapperCompany(String mapperCompany) {
+this.mapperCompany = mapperCompany;
+}
+public String getMapperContact() {
+return mapperContact;
+}
+public void setMapperContact(String mapperContact) {
+this.mapperContact = mapperContact;
+}
+public String getMapperEmail() {
+return mapperEmail;
+}
+public void setMapperEmail(String mapperEmail) {
+this.mapperEmail = mapperEmail;
+}
+public String getMapperPhone() {
+return mapperPhone;
+}
+public void setMapperPhone(String mapperPhone) {
+this.mapperPhone = mapperPhone;
+}
+public String getMapperPhoneExt() {
+return mapperPhoneExt;
+}
+public void setMapperPhoneExt(String mapperPhoneExt) {
+this.mapperPhoneExt = mapperPhoneExt;
+}
+public String getPcdbVersionDate() {
+return pcdbVersionDate;
+}
+public void setPcdbVersionDate(String pcdbVersionDate) {
+this.pcdbVersionDate = pcdbVersionDate;
+}
+public String getQdbVersionDate() {
+return qdbVersionDate;
+}
+public void setQdbVersionDate(String qdbVersionDate) {
+this.qdbVersionDate = qdbVersionDate;
+}
+public String getSenderName() {
+return senderName;
+}
+public void setSenderName(String senderName) {
+this.senderName = senderName;
+}
+public String getSenderPhone() {
+return senderPhone;
+}
+public void setSenderPhone(String senderPhone) {
+this.senderPhone = senderPhone;
+}
+public String getSenderPhoneExt() {
+return senderPhoneExt;
+}
+public void setSenderPhoneExt(String senderPhoneExt) {
+this.senderPhoneExt = senderPhoneExt;
+}
+public String getSubmissionType() {
+return submissionType;
+}
+public void setSubmissionType(String submissionType) {
+this.submissionType = submissionType;
+}
+public String getTransferDate() {
+return transferDate;
+}
+public void setTransferDate(String transferDate) {
+this.transferDate = transferDate;
+}
+public String getVcdbVersionDate() {
+return vcdbVersionDate;
+}
+public void setVcdbVersionDate(String vcdbVersionDate) {
+this.vcdbVersionDate = vcdbVersionDate;
+}
+@Override
+public String toString() {
+return "Header [approvedFor=" + approvedFor + ", brandAAIAID="
++ brandAAIAID + ", company=" + company + ", docFormNumber="
++ docFormNumber + ", documentTitle=" + documentTitle
++ ", effectiveDate=" + effectiveDate + ", hPId=" + hPId
++ ", mapperCompany=" + mapperCompany + ", mapperContact="
++ mapperContact + ", mapperEmail=" + mapperEmail
++ ", mapperPhone=" + mapperPhone + ", mapperPhoneExt="
++ mapperPhoneExt + ", pcdbVersionDate=" + pcdbVersionDate
++ ", qdbVersionDate=" + qdbVersionDate + ", senderName="
++ senderName + ", senderPhone=" + senderPhone
++ ", senderPhoneExt=" + senderPhoneExt + ", submissionType="
++ submissionType + ", transferDate=" + transferDate
++ ", vcdbVersionDate=" + vcdbVersionDate + "]";
+}
+}
+	public class App {
+		private long aPId;
+		private String action;
+		private long id;
+		private long aspirationId;
+		private String assetAction;
+		private long assetId;
+		private String assetRef;
+		private String assetValidate;
+		private String ref;
+		private String validate;
+		private long assetItemOrder;
+		private String assetItemRef;
+		private String assetItemName;
+		private long baseVehicleId;
+		private long bedLengthId;
+		private long bedTypeId;
+		private long bodyNumDoorsId;
+		private long bodyTypeId;
+		private long brakeABSId;
+		private long brakeSystemId;
+		private long cylinderHeadTypeId;
+		private long displayOrder;
+		private long driveTypeId;
+		private long engineBaseId;
+		private long engineDesignationId;
+		private long engineMfrId;
+		private long engineVersionId;
+		private long engineVINId;
+		private long frontBrakeTypeId;
+		private long frontSpringTypeId;
+		private long fuelDeliverySubTypeId;
+		private long fuelDeliveryTypeId;
+		private long fuelSystemControlTypeId;
+		private long fuelSystemDesignId;
+		private long fuelTypeId;
+		private long ignitionSystemTypeId;
+		private long makeId;
+		private String mfrLabel;
+		private long mfrBodyCodeId;
+		private long modelId;
+		private String note;
+		private long noteId;
+		private String noteLang;
+		private String part;
+		private String partBrandAAIAId;
+		private long partTypeId;
+		private long positionId;
+		private long powerOutputId;
+		private long qualId;
+		private String qParamUom;
+		private String qParamValue;
+		private String qParamAltValue;
+		private String qParamAltUom;
+		private String qPText;
+		private long qty;
+		private long rearBrakeTypeId;
+		private long rearSpringTypeId;
+		private long regionId;
+		private long steeringTypeId;
+		private long steeringSystemId;
+		private long subModelId;
+		private long transElecContolledId;
+		private long transmissionMfrId;
+		private long transmissionMfrCodeId;
+		private long transmissionBaseId;
+		private long transmissionControlTypeId;
+		private long transmissionNumSpeedsId;
+		private long transmissionTypeId;
+		private long valvesPerEngineId;
+		private long vehicleTypeId;
+		private long wheelBaseId;
+		private String yearsFrom;
+		private String yearsTo;
+		private String version;
+		public App() {
+			super();
+		}
+		public App(long aPId, String action, long id, long aspirationId,
+				String assetAction, long assetId, String assetRef,
+				String assetValidate, String ref, String validate,
+				long assetItemOrder, String assetItemRef, String assetItemName,
+				long baseVehicleId, long bedLengthId, long bedTypeId,
+				long bodyNumDoorsId, long bodyTypeId, long brakeABSId,
+				long brakeSystemId, long cylinderHeadTypeId, long displayOrder,
+				long driveTypeId, long engineBaseId, long engineDesignationId,
+				long engineMfrId, long engineVersionId, long engineVINId,
+				long frontBrakeTypeId, long frontSpringTypeId,
+				long fuelDeliverySubTypeId, long fuelDeliveryTypeId,
+				long fuelSystemControlTypeId, long fuelSystemDesignId,
+				long fuelTypeId, long ignitionSystemTypeId, long makeId,
+				String mfrLabel, long mfrBodyCodeId, long modelId, String note,
+				long noteId, String noteLang, String part,
+				String partBrandAAIAId, long partTypeId, long positionId,
+				long powerOutputId, long qualId, String qParamUom,
+				String qParamValue, String qParamAltValue, String qParamAltUom,
+				String qPText, long qty, long rearBrakeTypeId,
+				long rearSpringTypeId, long regionId, long steeringTypeId,
+				long steeringSystemId, long subModelId,
+				long transElecContolledId, long transmissionMfrId,
+				long transmissionMfrCodeId, long transmissionBaseId,
+				long transmissionControlTypeId, long transmissionNumSpeedsId,
+				long transmissionTypeId, long valvesPerEngineId,
+				long vehicleTypeId, long wheelBaseId, String yearsFrom,
+				String yearsTo, String version) {
+			super();
+			this.aPId = aPId;
+			this.action = action;
+			this.id = id;
+			this.aspirationId = aspirationId;
+			this.assetAction = assetAction;
+			this.assetId = assetId;
+			this.assetRef = assetRef;
+			this.assetValidate = assetValidate;
+			this.ref = ref;
+			this.validate = validate;
+			this.assetItemOrder = assetItemOrder;
+			this.assetItemRef = assetItemRef;
+			this.assetItemName = assetItemName;
+			this.baseVehicleId = baseVehicleId;
+			this.bedLengthId = bedLengthId;
+			this.bedTypeId = bedTypeId;
+			this.bodyNumDoorsId = bodyNumDoorsId;
+			this.bodyTypeId = bodyTypeId;
+			this.brakeABSId = brakeABSId;
+			this.brakeSystemId = brakeSystemId;
+			this.cylinderHeadTypeId = cylinderHeadTypeId;
+			this.displayOrder = displayOrder;
+			this.driveTypeId = driveTypeId;
+			this.engineBaseId = engineBaseId;
+			this.engineDesignationId = engineDesignationId;
+			this.engineMfrId = engineMfrId;
+			this.engineVersionId = engineVersionId;
+			this.engineVINId = engineVINId;
+			this.frontBrakeTypeId = frontBrakeTypeId;
+			this.frontSpringTypeId = frontSpringTypeId;
+			this.fuelDeliverySubTypeId = fuelDeliverySubTypeId;
+			this.fuelDeliveryTypeId = fuelDeliveryTypeId;
+			this.fuelSystemControlTypeId = fuelSystemControlTypeId;
+			this.fuelSystemDesignId = fuelSystemDesignId;
+			this.fuelTypeId = fuelTypeId;
+			this.ignitionSystemTypeId = ignitionSystemTypeId;
+			this.makeId = makeId;
+			this.mfrLabel = mfrLabel;
+			this.mfrBodyCodeId = mfrBodyCodeId;
+			this.modelId = modelId;
+			this.note = note;
+			this.noteId = noteId;
+			this.noteLang = noteLang;
+			this.part = part;
+			this.partBrandAAIAId = partBrandAAIAId;
+			this.partTypeId = partTypeId;
+			this.positionId = positionId;
+			this.powerOutputId = powerOutputId;
+			this.qualId = qualId;
+			this.qParamUom = qParamUom;
+			this.qParamValue = qParamValue;
+			this.qParamAltValue = qParamAltValue;
+			this.qParamAltUom = qParamAltUom;
+			this.qPText = qPText;
+			this.qty = qty;
+			this.rearBrakeTypeId = rearBrakeTypeId;
+			this.rearSpringTypeId = rearSpringTypeId;
+			this.regionId = regionId;
+			this.steeringTypeId = steeringTypeId;
+			this.steeringSystemId = steeringSystemId;
+			this.subModelId = subModelId;
+			this.transElecContolledId = transElecContolledId;
+			this.transmissionMfrId = transmissionMfrId;
+			this.transmissionMfrCodeId = transmissionMfrCodeId;
+			this.transmissionBaseId = transmissionBaseId;
+			this.transmissionControlTypeId = transmissionControlTypeId;
+			this.transmissionNumSpeedsId = transmissionNumSpeedsId;
+			this.transmissionTypeId = transmissionTypeId;
+			this.valvesPerEngineId = valvesPerEngineId;
+			this.vehicleTypeId = vehicleTypeId;
+			this.wheelBaseId = wheelBaseId;
+			this.yearsFrom = yearsFrom;
+			this.yearsTo = yearsTo;
+			this.version = version;
+		}
+		public long getaPId() {
+			return aPId;
+		}
+		public void setaPId(long aPId) {
+			this.aPId = aPId;
+		}
+		public String getAction() {
+			return action;
+		}
+		public void setAction(String action) {
+			this.action = action;
+		}
+		public long getId() {
+			return id;
+		}
+		public void setId(long id) {
+			this.id = id;
+		}
+		public long getAspirationId() {
+			return aspirationId;
+		}
+		public void setAspirationId(long aspirationId) {
+			this.aspirationId = aspirationId;
+		}
+		public String getAssetAction() {
+			return assetAction;
+		}
+		public void setAssetAction(String assetAction) {
+			this.assetAction = assetAction;
+		}
+		public long getAssetId() {
+			return assetId;
+		}
+		public void setAssetId(long assetId) {
+			this.assetId = assetId;
+		}
+		public String getAssetRef() {
+			return assetRef;
+		}
+		public void setAssetRef(String assetRef) {
+			this.assetRef = assetRef;
+		}
+		public String getAssetValidate() {
+			return assetValidate;
+		}
+		public void setAssetValidate(String assetValidate) {
+			this.assetValidate = assetValidate;
+		}
+		public String getRef() {
+			return ref;
+		}
+		public void setRef(String ref) {
+			this.ref = ref;
+		}
+		public String getValidate() {
+			return validate;
+		}
+		public void setValidate(String validate) {
+			this.validate = validate;
+		}
+		public long getAssetItemOrder() {
+			return assetItemOrder;
+		}
+		public void setAssetItemOrder(long assetItemOrder) {
+			this.assetItemOrder = assetItemOrder;
+		}
+		public String getAssetItemRef() {
+			return assetItemRef;
+		}
+		public void setAssetItemRef(String assetItemRef) {
+			this.assetItemRef = assetItemRef;
+		}
+		public String getAssetItemName() {
+			return assetItemName;
+		}
+		public void setAssetItemName(String assetItemName) {
+			this.assetItemName = assetItemName;
+		}
+		public long getBaseVehicleId() {
+			return baseVehicleId;
+		}
+		public void setBaseVehicleId(long baseVehicleId) {
+			this.baseVehicleId = baseVehicleId;
+		}
+		public long getBedLengthId() {
+			return bedLengthId;
+		}
+		public void setBedLengthId(long bedLengthId) {
+			this.bedLengthId = bedLengthId;
+		}
+		public long getBedTypeId() {
+			return bedTypeId;
+		}
+		public void setBedTypeId(long bedTypeId) {
+			this.bedTypeId = bedTypeId;
+		}
+		public long getBodyNumDoorsId() {
+			return bodyNumDoorsId;
+		}
+		public void setBodyNumDoorsId(long bodyNumDoorsId) {
+			this.bodyNumDoorsId = bodyNumDoorsId;
+		}
+		public long getBodyTypeId() {
+			return bodyTypeId;
+		}
+		public void setBodyTypeId(long bodyTypeId) {
+			this.bodyTypeId = bodyTypeId;
+		}
+		public long getBrakeABSId() {
+			return brakeABSId;
+		}
+		public void setBrakeABSId(long brakeABSId) {
+			this.brakeABSId = brakeABSId;
+		}
+		public long getBrakeSystemId() {
+			return brakeSystemId;
+		}
+		public void setBrakeSystemId(long brakeSystemId) {
+			this.brakeSystemId = brakeSystemId;
+		}
+		public long getCylinderHeadTypeId() {
+			return cylinderHeadTypeId;
+		}
+		public void setCylinderHeadTypeId(long cylinderHeadTypeId) {
+			this.cylinderHeadTypeId = cylinderHeadTypeId;
+		}
+		public long getDisplayOrder() {
+			return displayOrder;
+		}
+		public void setDisplayOrder(long displayOrder) {
+			this.displayOrder = displayOrder;
+		}
+		public long getDriveTypeId() {
+			return driveTypeId;
+		}
+		public void setDriveTypeId(long driveTypeId) {
+			this.driveTypeId = driveTypeId;
+		}
+		public long getEngineBaseId() {
+			return engineBaseId;
+		}
+		public void setEngineBaseId(long engineBaseId) {
+			this.engineBaseId = engineBaseId;
+		}
+		public long getEngineDesignationId() {
+			return engineDesignationId;
+		}
+		public void setEngineDesignationId(long engineDesignationId) {
+			this.engineDesignationId = engineDesignationId;
+		}
+		public long getEngineMfrId() {
+			return engineMfrId;
+		}
+		public void setEngineMfrId(long engineMfrId) {
+			this.engineMfrId = engineMfrId;
+		}
+		public long getEngineVersionId() {
+			return engineVersionId;
+		}
+		public void setEngineVersionId(long engineVersionId) {
+			this.engineVersionId = engineVersionId;
+		}
+		public long getEngineVINId() {
+			return engineVINId;
+		}
+		public void setEngineVINId(long engineVINId) {
+			this.engineVINId = engineVINId;
+		}
+		public long getFrontBrakeTypeId() {
+			return frontBrakeTypeId;
+		}
+		public void setFrontBrakeTypeId(long frontBrakeTypeId) {
+			this.frontBrakeTypeId = frontBrakeTypeId;
+		}
+		public long getFrontSpringTypeId() {
+			return frontSpringTypeId;
+		}
+		public void setFrontSpringTypeId(long frontSpringTypeId) {
+			this.frontSpringTypeId = frontSpringTypeId;
+		}
+		public long getFuelDeliverySubTypeId() {
+			return fuelDeliverySubTypeId;
+		}
+		public void setFuelDeliverySubTypeId(long fuelDeliverySubTypeId) {
+			this.fuelDeliverySubTypeId = fuelDeliverySubTypeId;
+		}
+		public long getFuelDeliveryTypeId() {
+			return fuelDeliveryTypeId;
+		}
+		public void setFuelDeliveryTypeId(long fuelDeliveryTypeId) {
+			this.fuelDeliveryTypeId = fuelDeliveryTypeId;
+		}
+		public long getFuelSystemControlTypeId() {
+			return fuelSystemControlTypeId;
+		}
+		public void setFuelSystemControlTypeId(long fuelSystemControlTypeId) {
+			this.fuelSystemControlTypeId = fuelSystemControlTypeId;
+		}
+		public long getFuelSystemDesignId() {
+			return fuelSystemDesignId;
+		}
+		public void setFuelSystemDesignId(long fuelSystemDesignId) {
+			this.fuelSystemDesignId = fuelSystemDesignId;
+		}
+		public long getFuelTypeId() {
+			return fuelTypeId;
+		}
+		public void setFuelTypeId(long fuelTypeId) {
+			this.fuelTypeId = fuelTypeId;
+		}
+		public long getIgnitionSystemTypeId() {
+			return ignitionSystemTypeId;
+		}
+		public void setIgnitionSystemTypeId(long ignitionSystemTypeId) {
+			this.ignitionSystemTypeId = ignitionSystemTypeId;
+		}
+		public long getMakeId() {
+			return makeId;
+		}
+		public void setMakeId(long makeId) {
+			this.makeId = makeId;
+		}
+		public String getMfrLabel() {
+			return mfrLabel;
+		}
+		public void setMfrLabel(String mfrLabel) {
+			this.mfrLabel = mfrLabel;
+		}
+		public long getMfrBodyCodeId() {
+			return mfrBodyCodeId;
+		}
+		public void setMfrBodyCodeId(long mfrBodyCodeId) {
+			this.mfrBodyCodeId = mfrBodyCodeId;
+		}
+		public long getModelId() {
+			return modelId;
+		}
+		public void setModelId(long modelId) {
+			this.modelId = modelId;
+		}
+		public String getNote() {
+			return note;
+		}
+		public void setNote(String note) {
+			this.note = note;
+		}
+		public long getNoteId() {
+			return noteId;
+		}
+		public void setNoteId(long noteId) {
+			this.noteId = noteId;
+		}
+		public String getNoteLang() {
+			return noteLang;
+		}
+		public void setNoteLang(String noteLang) {
+			this.noteLang = noteLang;
+		}
+		public String getPart() {
+			return part;
+		}
+		public void setPart(String part) {
+			this.part = part;
+		}
+		public String getPartBrandAAIAId() {
+			return partBrandAAIAId;
+		}
+		public void setPartBrandAAIAId(String partBrandAAIAId) {
+			this.partBrandAAIAId = partBrandAAIAId;
+		}
+		public long getPartTypeId() {
+			return partTypeId;
+		}
+		public void setPartTypeId(long partTypeId) {
+			this.partTypeId = partTypeId;
+		}
+		public long getPositionId() {
+			return positionId;
+		}
+		public void setPositionId(long positionId) {
+			this.positionId = positionId;
+		}
+		public long getPowerOutputId() {
+			return powerOutputId;
+		}
+		public void setPowerOutputId(long powerOutputId) {
+			this.powerOutputId = powerOutputId;
+		}
+		public long getQualId() {
+			return qualId;
+		}
+		public void setQualId(long qualId) {
+			this.qualId = qualId;
+		}
+		public String getqParamUom() {
+			return qParamUom;
+		}
+		public void setqParamUom(String qParamUom) {
+			this.qParamUom = qParamUom;
+		}
+		public String getqParamValue() {
+			return qParamValue;
+		}
+		public void setqParamValue(String qParamValue) {
+			this.qParamValue = qParamValue;
+		}
+		public String getqParamAltValue() {
+			return qParamAltValue;
+		}
+		public void setqParamAltValue(String qParamAltValue) {
+			this.qParamAltValue = qParamAltValue;
+		}
+		public String getqParamAltUom() {
+			return qParamAltUom;
+		}
+		public void setqParamAltUom(String qParamAltUom) {
+			this.qParamAltUom = qParamAltUom;
+		}
+		public String getqPText() {
+			return qPText;
+		}
+		public void setqPText(String qPText) {
+			this.qPText = qPText;
+		}
+		public long getQty() {
+			return qty;
+		}
+		public void setQty(long qty) {
+			this.qty = qty;
+		}
+		public long getRearBrakeTypeId() {
+			return rearBrakeTypeId;
+		}
+		public void setRearBrakeTypeId(long rearBrakeTypeId) {
+			this.rearBrakeTypeId = rearBrakeTypeId;
+		}
+		public long getRearSpringTypeId() {
+			return rearSpringTypeId;
+		}
+		public void setRearSpringTypeId(long rearSpringTypeId) {
+			this.rearSpringTypeId = rearSpringTypeId;
+		}
+		public long getRegionId() {
+			return regionId;
+		}
+		public void setRegionId(long regionId) {
+			this.regionId = regionId;
+		}
+		public long getSteeringTypeId() {
+			return steeringTypeId;
+		}
+		public void setSteeringTypeId(long steeringTypeId) {
+			this.steeringTypeId = steeringTypeId;
+		}
+		public long getSteeringSystemId() {
+			return steeringSystemId;
+		}
+		public void setSteeringSystemId(long steeringSystemId) {
+			this.steeringSystemId = steeringSystemId;
+		}
+		public long getSubModelId() {
+			return subModelId;
+		}
+		public void setSubModelId(long subModelId) {
+			this.subModelId = subModelId;
+		}
+		public long getTransElecContolledId() {
+			return transElecContolledId;
+		}
+		public void setTransElecContolledId(long transElecContolledId) {
+			this.transElecContolledId = transElecContolledId;
+		}
+		public long getTransmissionMfrId() {
+			return transmissionMfrId;
+		}
+		public void setTransmissionMfrId(long transmissionMfrId) {
+			this.transmissionMfrId = transmissionMfrId;
+		}
+		public long getTransmissionMfrCodeId() {
+			return transmissionMfrCodeId;
+		}
+		public void setTransmissionMfrCodeId(long transmissionMfrCodeId) {
+			this.transmissionMfrCodeId = transmissionMfrCodeId;
+		}
+		public long getTransmissionBaseId() {
+			return transmissionBaseId;
+		}
+		public void setTransmissionBaseId(long transmissionBaseId) {
+			this.transmissionBaseId = transmissionBaseId;
+		}
+		public long getTransmissionControlTypeId() {
+			return transmissionControlTypeId;
+		}
+		public void setTransmissionControlTypeId(long transmissionControlTypeId) {
+			this.transmissionControlTypeId = transmissionControlTypeId;
+		}
+		public long getTransmissionNumSpeedsId() {
+			return transmissionNumSpeedsId;
+		}
+		public void setTransmissionNumSpeedsId(long transmissionNumSpeedsId) {
+			this.transmissionNumSpeedsId = transmissionNumSpeedsId;
+		}
+		public long getTransmissionTypeId() {
+			return transmissionTypeId;
+		}
+		public void setTransmissionTypeId(long transmissionTypeId) {
+			this.transmissionTypeId = transmissionTypeId;
+		}
+		public long getValvesPerEngineId() {
+			return valvesPerEngineId;
+		}
+		public void setValvesPerEngineId(long valvesPerEngineId) {
+			this.valvesPerEngineId = valvesPerEngineId;
+		}
+		public long getVehicleTypeId() {
+			return vehicleTypeId;
+		}
+		public void setVehicleTypeId(long vehicleTypeId) {
+			this.vehicleTypeId = vehicleTypeId;
+		}
+		public long getWheelBaseId() {
+			return wheelBaseId;
+		}
+		public void setWheelBaseId(long wheelBaseId) {
+			this.wheelBaseId = wheelBaseId;
+		}
+		public String getYearsFrom() {
+			return yearsFrom;
+		}
+		public void setYearsFrom(String yearsFrom) {
+			this.yearsFrom = yearsFrom;
+		}
+		public String getYearsTo() {
+			return yearsTo;
+		}
+		public void setYearsTo(String yearsTo) {
+			this.yearsTo = yearsTo;
+		}
+		public String getVersion() {
+			return version;
+		}
+		public void setVersion(String version) {
+			this.version = version;
+		}
+		@Override
+		public String toString() {
+			return "App [aPId=" + aPId + ", action=" + action
+					+ ", aspirationId=" + aspirationId + ", assetAction="
+					+ assetAction + ", assetId=" + assetId + ", assetItemName="
+					+ assetItemName + ", assetItemOrder=" + assetItemOrder
+					+ ", assetItemRef=" + assetItemRef + ", assetRef="
+					+ assetRef + ", assetValidate=" + assetValidate
+					+ ", baseVehicleId=" + baseVehicleId + ", bedLengthId="
+					+ bedLengthId + ", bedTypeId=" + bedTypeId
+					+ ", bodyNumDoorsId=" + bodyNumDoorsId + ", bodyTypeId="
+					+ bodyTypeId + ", brakeABSId=" + brakeABSId
+					+ ", brakeSystemId=" + brakeSystemId
+					+ ", cylinderHeadTypeId=" + cylinderHeadTypeId
+					+ ", displayOrder=" + displayOrder + ", driveTypeId="
+					+ driveTypeId + ", engineBaseId=" + engineBaseId
+					+ ", engineDesignationId=" + engineDesignationId
+					+ ", engineMfrId=" + engineMfrId + ", engineVINId="
+					+ engineVINId + ", engineVersionId=" + engineVersionId
+					+ ", frontBrakeTypeId=" + frontBrakeTypeId
+					+ ", frontSpringTypeId=" + frontSpringTypeId
+					+ ", fuelDeliverySubTypeId=" + fuelDeliverySubTypeId
+					+ ", fuelDeliveryTypeId=" + fuelDeliveryTypeId
+					+ ", fuelSystemControlTypeId=" + fuelSystemControlTypeId
+					+ ", fuelSystemDesignId=" + fuelSystemDesignId
+					+ ", fuelTypeId=" + fuelTypeId + ", id=" + id
+					+ ", ignitionSystemTypeId=" + ignitionSystemTypeId
+					+ ", makeId=" + makeId + ", mfrBodyCodeId=" + mfrBodyCodeId
+					+ ", mfrLabel=" + mfrLabel + ", modelId=" + modelId
+					+ ", note=" + note + ", noteId=" + noteId + ", noteLang="
+					+ noteLang + ", part=" + part + ", partBrandAAIAId="
+					+ partBrandAAIAId + ", partTypeId=" + partTypeId
+					+ ", positionId=" + positionId + ", powerOutputId="
+					+ powerOutputId + ", qPText=" + qPText + ", qParamAltUom="
+					+ qParamAltUom + ", qParamAltValue=" + qParamAltValue
+					+ ", qParamUom=" + qParamUom + ", qParamValue="
+					+ qParamValue + ", qty=" + qty + ", qualId=" + qualId
+					+ ", rearBrakeTypeId=" + rearBrakeTypeId
+					+ ", rearSpringTypeId=" + rearSpringTypeId + ", ref=" + ref
+					+ ", regionId=" + regionId + ", steeringSystemId="
+					+ steeringSystemId + ", steeringTypeId=" + steeringTypeId
+					+ ", subModelId=" + subModelId + ", transElecContolledId="
+					+ transElecContolledId + ", transmissionBaseId="
+					+ transmissionBaseId + ", transmissionControlTypeId="
+					+ transmissionControlTypeId + ", transmissionMfrCodeId="
+					+ transmissionMfrCodeId + ", transmissionMfrId="
+					+ transmissionMfrId + ", transmissionNumSpeedsId="
+					+ transmissionNumSpeedsId + ", transmissionTypeId="
+					+ transmissionTypeId + ", validate=" + validate
+					+ ", valvesPerEngineId=" + valvesPerEngineId
+					+ ", vehicleTypeId=" + vehicleTypeId + ", version="
+					+ version + ", wheelBaseId=" + wheelBaseId + ", yearsFrom="
+					+ yearsFrom + ", yearsTo=" + yearsTo + "]";
+		}
+		
+		
+}
+		
