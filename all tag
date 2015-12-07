@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ACES version="3.0">
+<Header>
+  <ApprovedFor>US,CA</ApprovedFor>
+  <BrandAAIAID>BBBB</BrandAAIAID>
+  <Company>ACME Mfg.</Company>
+  <DocFormNumber>F02991</DocFormNumber>
+  <DocumentTitle>ACME Brake Hardware</DocumentTitle>
+  <EffectiveDate>2000-06-01</EffectiveDate>
+  <MapperCompany>ACME Mapping, Inc.</MapperCompany>
+  <MapperContact>Joe Mapper</MapperContact>
+  <MapperEmail>joe@mapper.com</MapperEmail>
+  <MapperPhone>111-111-1111 </MapperPhone>
+  <MapperPhoneExt>111 </MapperPhoneExt>
+  <PcdbVersionDate>2001-02-15 </PcdbVersionDate>
+  <QdbVersionDate>2001-02-15 </QdbVersionDate>
+  <SenderName>Joe Sender </SenderName>
+  <SenderPhone>111-111-1111 </SenderPhone>
+  <SenderPhoneExt>111 </SenderPhoneExt>
+  <SubmissionType>FULL </SubmissionType>
+  <TransferDate>2001-02-15 </TransferDate>
+  <VcdbVersionDate>2001-02-15 </VcdbVersionDate>
+</Header>
+ <App action="A" id="123" ref="200145" validate="no">
+	<Aspiration id="74"/>
+	<AssetItemOrder>1</AssetItemOrder>
+	<AssetItemRef>A12345</AssetItemRef>
+	<AssetName>AU0012N</AssetName>
+	<BaseVehicle id="9946"/>
+	
+	
+	<BedLength id="3"/>
+	<BedType id="5"/>
+	<BodyNumDoors id="1"/>
+	
+	
+	<BodyType id="4"/>
+	<BrakeABS id="7"/>
+	
+	
+	<BrakeSystem id="5"/>
+	<CylinderHeadType id="6"/>
+	
+	
+	<DisplayOrder>1</DisplayOrder>
+	
+	<DriveType id="5"/>
+	<!-- DriveType id="8">4WD</DriveType-->
+	
+	
+	<EngineBase id="315"/>
+	
+	<EngineDesignation id="22"/>
+	<EngineMfr id="544"/>
+	<EngineVersion id="45"/>
+	
+	
+	<EngineVIN id="15"/>
+	<FrontBrakeType id="1"/>
+	
+	
+	<FrontSpringType id="45"/>
+	<FuelDeliverySubType id="6"/>
+	<FuelDeliveryType id="4"/>
+	<FuelSystemControlType id="6"/>
+	<FuelSystemDesign id="47"/>
+	<FuelType id="84"/>
+	<IgnitionSystemType id="78"/>
+	
+	
+	
+	<Make id="26"/>
+	
+	
+	<MfrBodyCode id="18"/>
+	<MfrLabel>ACME Superduper Strut</MfrLabel>
+	
+	
+	
+	<Model id="697"/>
+	
+	
+	
+	<Note>w/AC</Note>
+	<Note>Dual Outlet</Note>
+	<Note>Exc. Calif.</Note>
+	<!--Note>Replaces both front & rear OE Converters</Note-->	
+    <Note id="258"/>
+    <Note lang="fr">je ne parle pas franÃ§ais</Note>
+    <Part BrandAAIAID="BBBB">P192-12</Part>
+    <PartType id="15"/>
+    <Position id="23"/>
+	<PowerOutput id="5"/>
+	<Qual id="123">
+		<param value="14" uom="in"/>
+		<param value="4-3/4" uom="in"/>
+		<param value="4-3/4" uom="in" altvalue="120" altuom="mm"/>
+		<text>With 14" Wheels</text>
+	</Qual>
+	<Qty>1</Qty>
+	<RearBrakeType id="1"/>
+	<RearSpringType id="45"/>
+	<Region id="2"/>
+	<SteeringType id="1"/>
+	<SteeringSystem id="5"/>
+	<SubModel id="176"/>
+	<TransElecControlled id="2"/>
+	<TransmissionMfr id="544"/>
+	<TransmissionMfrCode id="37"/>
+	<TransmissionBase id="13"/>
+	<TransmissionControlType id="107"/>
+	<TransmissionNumSpeeds id="5"/>
+	<TransmissionType id="6"/>
+	<ValvesPerEngine id="5"/>
+	<VehicleType id="2"/>
+	<WheelBase id="21"/>
+	<Years from="1982" to="1990"/>
+</App>
+<Asset action="b" id="123" ref="fds" validate="yes"></Asset>
+<Footer>
+<RecordCount>5</RecordCount>
+</Footer>
+</ACES>
